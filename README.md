@@ -1,6 +1,6 @@
 # npmtest-sails-sqlserver
 
-#### test coverage for  [sails-sqlserver (v0.10.8)](https://github.com/cnect/sails-sqlserver)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-sqlserver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-sqlserver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-sqlserver.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-sqlserver)
+#### basic test coverage for  [sails-sqlserver (v0.10.8)](https://github.com/cnect/sails-sqlserver)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-sqlserver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-sqlserver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-sqlserver.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-sqlserver)
 
 #### Official SQL Server Adapter for Sails / Waterline
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sails-sqlserver/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sails-sqlserver/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sails-sqlserver/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sails-sqlserver/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sails-sqlserver/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sails-sqlserver/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sails-sqlserver/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sails-sqlserver/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sails-sqlserver/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sails-sqlserver/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sails-sqlserver/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sails-sqlserver/build/coverage.html/index.html)
 
@@ -126,7 +126,8 @@
             "associations"
         ],
         "waterlineVersion": "~0.10.0"
-    }
+    },
+    "bin": {}
 }
 ```
 
